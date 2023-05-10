@@ -37,8 +37,8 @@ font-family: 'Roboto', sans-serif; */
     color: var(--darkish);
 }
 .hero{
-    height: 100dvh;
-    height: 100svh;
+    min-height: 100dvh;
+    min-height: 100svh;
     background:var(--creamy) ;
 
 }
@@ -83,4 +83,7 @@ font-family: 'Roboto', sans-serif; */
 }
 .brownish{
     background-color: var(--brown);
+}
+img{
+    max-width: 100%;
 }
