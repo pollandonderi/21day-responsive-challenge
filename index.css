@@ -1,0 +1,86 @@
+/* variables */
+:root{
+    --brown:#824936;
+    --darkish:#222C2A;
+    --creamy:#F3EED9;
+}
+/* font families to use */
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.max{
+    max-width: 1128px;
+    margin: 0 auto;
+    padding-block:4.8rem ;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.white{
+    color:var(--creamy);
+}
+.brown{
+    color: var(--brown);
+}
+.darkish{
+    color: var(--darkish);
+}
+.hero{
+    height: 100dvh;
+    height: 100svh;
+    background:var(--creamy) ;
+
+}
+.hero--h1{
+    color:var(--darkish) ;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.6rem;
+}
+.hero--h2{
+    color:var( --brown
+    ) ;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4rem;
+}
+.quality--h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    text-transform: capitalize;
+    /* padding-top: ; */
+    padding-bottom: 2rem;
+}
+.maincontainer{
+    display: flex;
+    gap: 3rem;
+
+}
+.paragraph{
+   /* width: 40%; */
+    font-size: 1.3rem;
+}
+.paragraph--custom{
+   width: 45%;
+    font-size: 1.3rem;
+}
+.picture{
+    width: 45%;
+}
+.dark{
+    background-color: #222C2A;
+}
+.brownish{
+    background-color: var(--brown);
+}
