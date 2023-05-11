@@ -87,3 +87,23 @@ font-family: 'Roboto', sans-serif; */
 img{
     max-width: 100%;
 }
+@media (max-width:35em) {
+    .maincontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraph{
+        padding-inline: 2rem;
+    }
+    .paragraph--custom{
+        width: 100%;
+    }
+    .white{
+        padding-inline: 2rem;
+    }
+    .picture{
+        padding-inline: 2rem;
+        width: 100%;
+    }
+    
+}
